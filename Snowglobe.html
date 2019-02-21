@@ -1,0 +1,175 @@
+<html>
+<head> </head>
+<style>
+    
+    #Snowglobe {
+        position: absolute;
+        top: 25vmin;
+        left: 25vmin;
+        width: 55vmin;
+        height: 55vmin;
+        background-color: lightskyblue;
+        border-radius: 200px;
+        background-image: linear-gradient(white, lightskyblue);
+        border: 2px solid black;
+        animation: fade 3s infinite
+        }
+    @keyframes fade {
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+    
+    #Ground {
+        position: absolute;
+        top: 65vmin;
+        left: 32vmin;
+        width: 41vmin;
+        height: 20vmin;
+        background-color: white;
+        border-radius: 150px;
+        
+    }
+        
+    
+    #Base {
+        position: absolute;
+        top: 70vmin;
+        left: 29vmin;
+        width: 47vmin;
+        height: 15vmin;
+        background-color: black;
+        border-radius: 5px;
+        transform: perspective(4em)
+        rotateX(10deg); 
+        
+        
+    }
+    
+
+    #Camera1 {
+        position: absolute;
+        top: 55vmin;
+        left: 45vmin;
+        width: 15vmin;
+        height: 10vmin;
+        background-color: gainsboro;
+        border-radius: 10px;
+        
+        
+    }
+    
+     #Camera2 {
+        position: absolute;
+        top: 55.5vmin;
+        left: 45.5vmin;
+        width: 14vmin;
+        height: 9vmin;
+        background-color: black;
+        border-radius: 10px;
+         
+    }
+    
+     #Camera {
+        position: absolute;
+        top: 55vmin;
+        left: 45vmin;
+        width: 15vmin;
+        height: 10vmin;
+        background-color: gainsboro;
+        border-radius: 10px;
+         
+    }
+    
+    #Lens1 {
+        position: absolute;
+        top: 56vmin;
+        left: 50vmin;
+        width: 8vmin;
+        height: 8vmin;
+        background-color: lightskyblue;
+        border-radius: 175px  
+    }
+    
+    #Lens2 {
+        position: absolute;
+        top: 56.5vmin;
+        left: 50.5vmin;
+        width: 7vmin;
+        height: 7vmin;
+        background-color: black;
+        border-radius: 175px
+    }
+    
+      #Lens3 {
+        position: absolute;
+        top: 56.5vmin;
+        left: 50.5vmin;
+        width: 7vmin;
+        height: 7vmin;
+        background-color: slategrey;
+        filter: opacity(40%);
+        border-radius: 175px
+    }
+    
+       #Flash1 {  
+        position: absolute;
+        top: 52.8vmin;
+        left: 50vmin;
+        width: 5vmin;
+        height: 2.5vmin;
+        background-color: gainsboro;
+        border-radius: 5px;
+        transform: perspective(1em)rotateX(10deg);
+    
+    }
+    
+    #Flash2 {  
+        position: absolute;
+        top: 53.3vmin;
+        left: 50.55vmin;
+        width: 4vmin;
+        height: 2.6vmin;
+        background-color: black;
+        border-radius: 5px;
+        transform: perspective(1em)rotateX(10deg);
+        
+    }
+    Flash hover {
+        background-color: white;
+    }
+    
+    #Flash3 {
+        position: absolute;
+        top: 54vmin;
+        left: 53vmin;
+        width: 1vmin;
+        height: 1vmin;
+        background-color: white;
+        border-radius: 10px;
+        animation: blinking 3s infinite
+    }
+    
+    @keyframes blinking {
+        from{opacity: 1;}
+        to{opacity: 0;}
+    }
+  
+    
+    
+</style>
+<body>
+    <div id="Snowglobe"> </div>
+    <div id="Ground"> </div>
+    <div id="Base"> </div>
+    <div id="Camera1"> </div>
+    <div id="Camera2"> </div>
+    <div id="Lens1"> </div>
+    <div id="Lens2"> </div>
+    <div id="Lens3"> </div>
+    <div id="Flash1"> </div>
+    <div id="Flash2"> </div>
+    <div id="Flash3"> </div>
+    <div id="Warningflash"> </div>
+    <div id="Snowflake"> </div>
+</body>
+</html>
